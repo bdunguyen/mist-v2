@@ -7,8 +7,8 @@ numpy==2.0.0
 protobuf==5.29.1
 
 # torchaudio==2.6.0+cu124 requires torch==2.6.0
-torch==2.6.0+cu124
-torchaudio==2.6.0+cu124
+torch==2.6.0
+torchaudio==2.6.0
 
 # Other packages that had issues
 thinc==8.3.6
