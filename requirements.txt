@@ -1,4 +1,21 @@
-torch==2.0.1
+# Compatible versions to satisfy dependency resolver
+
+# thinc requires numpy>=2.0.0,<3.0.0
+numpy==2.0.0
+
+# ydf and grpcio-status both require protobuf >=5.26.1 and <6.0.0
+protobuf==5.29.1
+
+# torchaudio==2.6.0+cu124 requires torch==2.6.0
+torch==2.6.0+cu124
+torchaudio==2.6.0+cu124
+
+# Other packages that had issues
+thinc==8.3.6
+ydf==0.11.0
+grpcio-status==1.71.0
+
+#torch==2.0.1
 torchvision
 diffusers
 transformers
@@ -20,4 +37,5 @@ cache
 xformers
 colorama
 torchmetrics
+
 --extra-index-url https://download.pytorch.org/whl/cu118
